@@ -20,6 +20,7 @@
 		4E3BCEEC2A7B85130085F8F6 /* MemoWriteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BCEEB2A7B85120085F8F6 /* MemoWriteController.swift */; };
 		4E3BCEEF2A7B93340085F8F6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4E3BCEEE2A7B93340085F8F6 /* SnapKit */; };
 		4EA15D2E2A849F7700C28FF5 /* UtilieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA15D2D2A849F7700C28FF5 /* UtilieView.swift */; };
+		4EA15D302A84B0C100C28FF5 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EA15D2F2A84B0C100C28FF5 /* Logo.png */; };
 		4EDC3D0D2A83794B0093602B /* DataManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC3D0B2A83794B0093602B /* DataManager.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		4E3BCEE82A7B3A030085F8F6 /* MemoCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCCell.swift; sourceTree = "<group>"; };
 		4E3BCEEB2A7B85120085F8F6 /* MemoWriteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoWriteController.swift; sourceTree = "<group>"; };
 		4EA15D2D2A849F7700C28FF5 /* UtilieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilieView.swift; sourceTree = "<group>"; };
+		4EA15D2F2A84B0C100C28FF5 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		4EDC3D0C2A83794B0093602B /* DataManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataManager.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 				4E382F022A7A165400ACBCFB /* Assets.xcassets */,
 				4E382F042A7A165400ACBCFB /* LaunchScreen.storyboard */,
 				4E382F072A7A165400ACBCFB /* Info.plist */,
+				4EA15D2F2A84B0C100C28FF5 /* Logo.png */,
 			);
 			path = MemoAppClone;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			files = (
 				4E382F062A7A165400ACBCFB /* LaunchScreen.storyboard in Resources */,
 				4E382F012A7A165100ACBCFB /* Main.storyboard in Resources */,
+				4EA15D302A84B0C100C28FF5 /* Logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +357,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MemoAppClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -382,7 +386,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MemoAppClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
